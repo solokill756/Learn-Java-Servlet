@@ -17,4 +17,12 @@
   	<servlet-name>DemoServlet</servlet-name>
   	<url-pattern>/Demo</url-pattern>
   </servlet-mapping>
+  <filter>
+  	<filter-name>Filter</filter-name>
+  	<filter-class>FulterDemo.Fulter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>Filter</filter-name>
+  	<url-pattern>/Session1</url-pattern>
+  </filter-mapping>
 </web-app>
